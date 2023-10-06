@@ -10,24 +10,24 @@
 const colors = ["tangerine", "magenta", "lilac", "daffodil"]
 // console.log(colors.push("indigo"))
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer: 5
+// b) Verify and explain: because .push add a value to the end of an array
 
 // --------------------1) What will this log?
 
 const cohort = "LEARN 2023"
 // console.log(cohort.length)
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer:9
+// b) Verify and explain: the answer was 10 but .length is command that returns the number of elements in the array. 
 
 // --------------------2) What will this log?
 
 const greeting = "Hello World!"
 // console.log(greeting[4])
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer:o
+// b) Verify and explain: the answer is o and i got that because we have a array [] calling out the 4 element is our string
 
 // --------------------3) What will this log?
 
@@ -35,21 +35,21 @@ const languages = ["JavaScript", "Ruby", "Python", "C++"]
 const index = 1
 // console.log(languages[index])
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer: Ruby 
+// b) Verify and explain: because we have a index calling out the 1 laungage in the string
 
 // --------------------4) What will this log?
 
 const weekendDays = ["saturday", "sunday"]
 // console.log(weekendDays.toUpperCase())
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer:SATURDAY, SUNDAY 
+// b) Verify and explain: i got a typeError stating .toUpperCase is not a function 
 
 // --------------------5) What will this log?
 
 const dataTypes = ["number", "string", "Boolean", "undefined"]
 // console.log(typeof dataTypes.length)
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer:5, 5, 6, 8
+// b) Verify and explain: the answer was number but now i relized the cosole.log reads dataTypes so i understand it now. 
