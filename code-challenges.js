@@ -41,7 +41,14 @@ const padres1984WorldSeriesRuns = [2, 5, 2, 2, 4]
 const padres1998WorldSeriesRuns = [6, 3, 5, 3]
 // Expected output: 9
 
-// Pseudo code:
+// Pseudo code:combine two arrays
+const combinedArray = padres1984WorldSeriesRuns.concat(padres1998WorldSeriesRuns);
+
+//get the length of the combined array 
+const combinedArrayLength = combinedArray.length;
+console.log(combinedArrayLength);
+
+
 
 // --------------------2) Create the code that will reverse the letters of a string using the test variable provided below.
 
